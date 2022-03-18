@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TrianguloComponent {
 
-  @Input() triangulo = "Soy un triángulo de 12 de base y 56.7 de altura";
+  @Input() triangulo = "";
   constructor() { }
 
 }
