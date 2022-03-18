@@ -1,0 +1,13 @@
+<div class="container">
+  <fig-circulo [circulo]="textoCirculo + radio" (multiplicar)="escribirResultado($event)"></fig-circulo>
+  {{resultado}}
+</div>
+
+<div class="container">
+  <fig-cuadrado [cuadrado]="textoCuadrado + baseCuadrado + ' x ' + alturaCuadrado "></fig-cuadrado>  
+</div>
+
+<div class="container">
+  <figura-triangulo [triangulo]="textoTriangulo + baseTriangulo + ' de base y ' + alturaTriangulo + ' de altura'"></figura-triangulo>
+</div>
+
